@@ -5,7 +5,7 @@
     "networkMode": "bridge",
     "containerDefinitions": [
         {
-            "name": "",
+            "name": "react-exercise-container",
             "image": "",
             "repositoryCredentials": {
                 "credentialsParameter": ""
