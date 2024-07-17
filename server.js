@@ -9,6 +9,7 @@ const app = express();
 const port = process.env.PORT || 3001;
 
 app.use(cors());
+app.use(express.static('public'));
 
 const s3 = new S3Client({
   region: process.env.AWS_REGION,

@@ -3,7 +3,9 @@
   "version": "1.0.0",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\""
+    "test": "echo \"Error: no test specified\"",
+    "build": "mkdir -p public && cp index.html public/ && cp server.js public/",
+    "start": "node server.js"
   },
   "keywords": [],
   "author": "",
